@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f0b97a;
+  color: #333;
+  line-height: 1.6;
+}
+
+
+.navbar {
+  background-color: #187591;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  margin-top: 2vh;
+  width: 90%;
+  margin-left: 5%;
+  margin-bottom: 2vh;
+  border-radius: 20px 20px 20px 20px;
+}
+
+.navbar .logo {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+}
+
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #0ca9a3;
+  color: white;
+  padding: 4rem 2rem;
+  flex-wrap: wrap;
+  width: 95%;
+  margin-left: 2.5%;
+  margin-bottom: 2vh;
+  border-radius: 20px 20px 20px 20px;
+}
+
+.hero-content h1 {
+  font-size: 3.5rem;
+}
+
+.hero-content p {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+.hero-image img {
+  max-width: 250px;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.2);
+}
+
+.btn-primary {
+  background-color: #d88c99;
+  color: white;
+  padding: 0.7rem 1.4rem;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background 0.3s;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+}
+
+.btn-primary:hover {
+  background-color: #c66a79;
+}
+
+
+section {
+  padding: 2rem;
+  background-color: #f2d0aa;
+}
+
+section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #8d7dbe;
+}
+
+.skills ul {
+  list-style-type: square;
+  margin-left: 1.5rem;
+}
+
+.projects .project {
+  background-color: #eee1d2;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 6px;
+  box-shadow: 0 0 6px rgba(0,0,0,0.1);
+}
+
+
+.btn-secondary {
+  background-color: #99c1b9;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.btn-secondary:hover {
+  background-color: #7bb2a8;
+}
+
+
+.contact p {
+  margin-bottom: 0.5rem;
+}
+
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #8d7dbe;
+  color: white;
+}
