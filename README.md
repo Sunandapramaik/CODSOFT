@@ -1,2 +1,1 @@
-# CODSOFT
-Internship with Codesoft
+This repository contains all the web development projects completed during my internship at CodSoft. The internship focused on building responsive, user-friendly, and functional websites using modern web technologies such as HTML, CSS, JavaScript, and popular libraries/frameworks.
